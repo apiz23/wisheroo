@@ -1,7 +1,6 @@
 import S1 from "@/components/screen/s1";
 import S2 from "@/components/screen/s2";
 import S3 from "@/components/screen/s3";
-import S4 from "@/components/screen/s4";
 import S5 from "@/components/screen/s5";
 
 export default function Home() {
@@ -81,9 +80,8 @@ export default function Home() {
                 </div>
             </div>
             <S1 />
-            <S2 />
             <S3 />
-            <S4 />
+            <S2 />
             <S5 />
         </>
     );
