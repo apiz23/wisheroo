@@ -132,4 +132,44 @@
     .animate-bounce-slow {
         animation: bounce-slow 2s infinite;
     }
+
+    @keyframes float {
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-15px);
+        }
+    }
+    @keyframes float-delay {
+        0%,
+        100% {
+            transform: translateY(-5px);
+        }
+        50% {
+            transform: translateY(-20px);
+        }
+    }
+    @keyframes wiggle {
+        0%,
+        100% {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(5deg);
+        }
+        75% {
+            transform: rotate(-5deg);
+        }
+    }
+    .animate-float {
+        animation: float 3s ease-in-out infinite;
+    }
+    .animate-float-delay {
+        animation: float-delay 3s ease-in-out infinite 0.5s;
+    }
+    .animate-wiggle {
+        animation: wiggle 2s ease-in-out infinite;
+    }
 }

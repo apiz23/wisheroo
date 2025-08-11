@@ -3,13 +3,13 @@
 import Image from "next/image";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
-import Picture1 from "@/public/images/11.jpg";
-import Picture2 from "@/public/images/2.jpg";
+import Picture1 from "@/public/images/horizontol/4.jpg";
+import Picture2 from "@/public/images/horizontol/1.jpg";
 import Picture3 from "@/public/images/3.jpg";
-import Picture4 from "@/public/images/1.jpg";
-import Picture5 from "@/public/images/5.jpg";
-import Picture6 from "@/public/images/6.jpg";
-import Picture7 from "@/public/images/7.jpg";
+import Picture4 from "@/public/images/horizontol/2.jpg";
+import Picture5 from "@/public/images/14.jpg";
+import Picture6 from "@/public/images/horizontol/3.jpg";
+import Picture7 from "@/public/images/15.jpg";
 
 export default function S1() {
     const container = useRef<HTMLDivElement>(null);
@@ -42,7 +42,7 @@ export default function S1() {
         },
         {
             src: Picture7,
-            className: "top-[22.5vh] left-[25vw] w-[15vw] h-[15vh]",
+            className: "top-[26.5vh] left-[25vw] w-[15vw] h-[25vh]",
         },
     ];
 
